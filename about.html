@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About – Green Fork Kitchen</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-3" role="navigation" aria-label="Main Navigation"
+    style="background:var(--primary-bg);">
+    <div class="container">
+
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/logo.png" class="logo me-2" alt="Green Fork logo">
+        <span class="fw-bold fs-4">Green Fork</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+        <ul class="navbar-nav mx-auto gap-4">
+          <li class="nav-item"><a class="nav-link fs-5" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active fs-5" href="about.html" aria-current="page">About</a></li>
+          <li class="nav-item"><a class="nav-link fs-5" href="menu.html">Menu</a></li>
+        </ul>
+
+        <form class="d-flex" role="search" aria-label="Search through site content">
+          <input type="search" class="form-control rounded-pill search-box" placeholder="Search"
+            aria-label="Search through website content">
+        </form>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="container-fluid py-5" style="background:var(--secondary-bg);" role="main">
+
+    <h1 class="text-center fw-bold about-title">About</h1>
+
+    <p class="about-text text-center">
+      At Green Fork Kitchen, we’re passionate about creating delicious<br>
+      vegetarian meals that celebrate freshness and sustainability.<br>
+      Every dish is made with locally sourced ingredients and crafted<br>
+      to bring comfort, color, and nourishment to your table.
+    </p>
+
+    <hr class="section-divider">
+
+    <!-- Wide Image -->
+    <div class="d-flex justify-content-center my-4">
+      <img src="images/about-banner.png" class="about-banner shadow"
+        alt="Variety of fresh vegetarian dishes arranged neatly">
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- REVIEWS -->
+    <h2 class="reviews-title fw-bold">Reviews</h2>
+
+    <ol class="reviews-list">
+      <li> ⭐ “The food tastes so fresh and healthy — my go-to spot for vegetarian meals!” </li>
+      <li> ⭐ “Great flavors, beautiful presentation, and friendly service every time.” </li>
+      <li> ⭐ “I love how simple yet satisfying their dishes are — highly recommend!” </li>
+    </ol>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-4" role="contentinfo" aria-label="Website Footer"
+    style="background:var(--primary-bg); color:white;">
+    <div class="d-flex justify-content-center gap-4 mb-2">
+      <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+        <img src="images/youtube.png" class="footer-icon" alt="" aria-hidden="true">
+      </a>
+
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+        <img src="images/facebook.png" class="footer-icon" alt="" aria-hidden="true">
+      </a>
+
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+        <img src="images/twitter.png" class="footer-icon" alt="" aria-hidden="true">
+      </a>
+
+      <a href="https://telegram.org" target="_blank" aria-label="Telegram">
+        <img src="images/telegram.png" class="footer-icon" alt="" aria-hidden="true">
+      </a>
+    </div>
+
+    <p class="mb-0">2025 Green Fork Kitchen | Made with
+      <span class="text-danger">❤</span> for veggie lovers.
+    </p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
